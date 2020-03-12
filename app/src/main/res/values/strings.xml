@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="toDo">REMIND ME TO \nDO...</string>
+    <string name="toWatch">REMIND ME TO \nWATCH...</string>
+    <string name="toCook">REMIND ME TO \nCOOK...</string>
+    <string name="toListen">REMIND ME TO \nLISTEN...</string>
+    <string name="addNote">ADD \nNOTE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="showSaved">SHOW \nSAVED</string>
+
+</resources>
