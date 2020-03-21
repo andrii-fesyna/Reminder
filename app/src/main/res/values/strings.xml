@@ -7,5 +7,6 @@
     <string name="addNote">ADD \nNOTE</string>
     <string name="settings">SETTINGS</string>
     <string name="showSaved">SHOW \nSAVED</string>
+    <string name="save">SAVE</string>
 
 </resources>

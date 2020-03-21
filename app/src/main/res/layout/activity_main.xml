@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:parentActivityName="com.example.Reminder.MainActivity"
     tools:context=".MainActivity">
 
     <Button
@@ -59,6 +60,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/round_button"
+        android:onClick="onClickAddNote"
         android:text="@string/addNote"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,6 +84,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/show_saved"
+        android:onClick="onClickShowSaved"
         android:text="@string/showSaved"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
