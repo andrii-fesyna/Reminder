@@ -8,5 +8,6 @@
     <string name="settings">SETTINGS</string>
     <string name="showSaved">SHOW \nSAVED</string>
     <string name="save">SAVE</string>
+    <string name="showSavedNotes">SHOW SAVED NOTES</string>
 
 </resources>

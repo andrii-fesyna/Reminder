@@ -15,6 +15,8 @@
         android:onClick="onClickToListen"
         android:paddingLeft="25dp"
         android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/toListen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,6 +29,8 @@
         android:onClick="onClickToCook"
         android:paddingRight="20dp"
         android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/toCook"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,6 +43,8 @@
         android:onClick="onClickToWatch"
         android:paddingTop="20dp"
         android:paddingRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/toWatch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -51,6 +57,8 @@
         android:onClick="onClickToDo"
         android:paddingLeft="25dp"
         android:paddingTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/toDo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -61,6 +69,8 @@
         android:layout_height="150dp"
         android:background="@drawable/round_button"
         android:onClick="onClickAddNote"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/addNote"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,6 +84,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/settings_button"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,6 +97,8 @@
         android:layout_height="100dp"
         android:background="@drawable/show_saved"
         android:onClick="onClickShowSaved"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/showSaved"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,3 +106,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

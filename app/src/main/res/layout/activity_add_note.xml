@@ -7,7 +7,7 @@
     tools:context=".AddNote">
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/EditTextAddNote"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="start"
@@ -23,6 +23,8 @@
         android:layout_marginLeft="10dp"
         android:background="@drawable/round_button"
         android:onClick="onClickShowSaved"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/showSaved"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -32,6 +34,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/round_button"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:text="@string/save"
         android:layout_marginBottom="15dp"
         android:layout_marginRight="10dp"

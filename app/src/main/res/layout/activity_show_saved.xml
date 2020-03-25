@@ -2,8 +2,102 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ShowSaved">
+    android:layout_height="match_parent">
+
+    <!--android:paddingTop="?attr/actionBarSize"-->
+
+    <Button
+        android:id="@+id/showSavedNotes"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:text="@string/showSavedNotes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showSavedNotes">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:background="@color/colorAccent"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:text="Button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:text="Button" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
