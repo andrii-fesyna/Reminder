@@ -9,5 +9,33 @@
     <string name="showSaved">SHOW \nSAVED</string>
     <string name="save">SAVE</string>
     <string name="showSavedNotes">SHOW SAVED NOTES</string>
+    <string name="whatToListen">WHAT TO LISTEN</string>
+    <string name="whatToWatch">WHAT TO WATCH</string>
+    <string name="whatToCook">WHAT TO COOK</string>
+    <string name="whatToDo">WHAT TO DO</string>
+
+    <string name="meat">MEAT</string>
+    <string name="salad">SALAD</string>
+    <string name="fish">FISH</string>
+    <string name="desert">DESERT</string>
+    <string name="vegan">VEGAN</string>
+    <string name="drinks">DRINKS</string>
+
+    <string name="buy">BUY</string>
+    <string name="meeting">MEETING</string>
+    <string name="toCall">TO CALL</string>
+
+    <string name="book">BOOK</string>
+    <string name="music">MUSIC</string>
+
+
+    <string name="movie">MOVIE</string>
+    <string name="video">VIDEO</string>
+    <string name="serial">SERIAL</string>
+    <string name="documentary">DOCUMENTARY</string>
+
+
+
+    <string name="dots">...</string>
 
 </resources>
